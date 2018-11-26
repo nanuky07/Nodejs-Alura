@@ -1,0 +1,23 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "Livraria Casa do Codigo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanuky07/Nodejs-Alura.git"
+  },
+  "author": "Marcus Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanuky07/Nodejs-Alura/issues"
+  },
+  "homepage": "https://github.com/nanuky07/Nodejs-Alura#readme",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
