@@ -20,7 +20,7 @@ class LivroDao {
     adiciona(livro) {
         return new Promise((resolve, reject) => {
             this._db.run(`
-                INSER INTO livros(
+                INSERT INTO livros(
                     titulo,
                     preco,
                     descricao
@@ -65,9 +65,9 @@ class LivroDao {
         return new Promise((resolve, reject) => {
             this._db.run(`
                UPDATE livros SET
-                titulo = ?,
-                preco = ?,
-                descricao = ?
+                preco = ?,                                
+                descricao = ?, 
+                titulo = ?
                 WHERE id = ?
             `, [
                     livro.preco,
